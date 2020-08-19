@@ -191,7 +191,7 @@ footer .main-footer ul li a:hover { text-decoration: underline; }
     white-space: nowrap;
   }
 
-  footer .main-footer ul li { padding: 5px; }
+  footer .main-footer ul li { padding: 3px; overflow: hidden;}
   footer .main-footer ul li:last-child { padding-right: 5px; }
 
 }
