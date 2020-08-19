@@ -126,8 +126,13 @@ ul {
 }
 
 .main-section .search-buttons button:hover {
-  border: 1px solid rgba(0,0,0,0.15);
+  border: 1px solid rgba(73, 70, 70, 0.15);
   border-bottom-width: 1.5px;
+}
+
+.main-section .search-buttons button:focus {
+  border: 1px solid #4d90fe;
+  outline: none;
 }
 
 .main-section p a {color: blue;}
