@@ -79,6 +79,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
   margin-top: 1.5rem;
   padding: 0 15px;
 }
@@ -172,4 +173,26 @@ footer .main-footer ul li { padding-right: 25px; }
 footer .main-footer ul li:last-child { padding-right: 0px; }
 footer .main-footer ul li a:hover { text-decoration: underline; }
 
+@media only screen and (max-width: 700px) {
+  .main-section {
+    align-items: center;
+    padding: auto 0;
+    margin: 0 auto;
+  }
+
+  .main-section .search-bar {  max-width: 95%;  }
+
+  footer .main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #5f6368;
+    white-space: nowrap;
+  }
+
+  footer .main-footer ul li { padding: 5px; }
+  footer .main-footer ul li:last-child { padding-right: 5px; }
+
+}
 
